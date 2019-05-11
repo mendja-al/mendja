@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+#site-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+}
+header a {
+    margin-left: 20px;
+}
+header a:first-child {
+    margin-left: 0;
+    margin-right: auto;
+}
