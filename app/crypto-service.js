@@ -1,4 +1,4 @@
-let bcrypt = require("bcrypt-nodejs");
+let bcrypt = require("bcrypt");
 let crypto = require("crypto");
 
 class CryptoService {
